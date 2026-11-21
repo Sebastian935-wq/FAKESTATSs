@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "fakestats",
+  "version": "${version}",
+  "name": "FAKESTATS",
+  "description": "Local-only fake statistics display for Minecraft 1.21.4.",
+  "authors": ["ChatGPT"],
+  "environment": "client",
+  "entrypoints": { "client": ["pl.fakestats.FakeStatsClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
